@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Portal de Serviços Públicos</title>
+</head>
+<body>
+
+<header>
+    <h1 align="center">Portal de Serviços Públicos</h1> 
+    <img src="https://rondonia.ro.gov.br/wp-content/uploads/2020/09/Bras%C3%A3o-p%C3%A1trio-um-dois-s%C3%ADmbolos-do-Brasil-Foto-Divulga%C3%A7%C3%A3o-570x571.jpg" alt="Brasão e lema do Portal de Serviços Públicos">
+    <hr>
+</header>
+
+<nav id="menu">
+    <b>Menu</b><br>
+    <ul>
+        <li><a href="/saude">Saúde Pública</a></li>
+        <li><a href="/educacao">Educação</a>
+            <ul>
+                <li><a href="/educacao/idosos">Educação de Idosos</a></li>
+            </ul>
+        </li>
+        <li><a href="/seguranca">Segurança</a></li>
+    </ul>
+</nav>
+
+<main>
+    <article>
+        <h2>Cadastro Acesso a Serviços</h2>
+
+        <form action="/cadastro" method="post">
+            
+            <label for="nome_completo">Nome completo</label><br>
+            <input type="text" id="nome_completo" name="nome_completo" required><br><br>
+
+            <label for="email_contato">E-mail de contato</label><br>
+            <input type="email" id="email_contato" name="email_contato" required><br><br>
+            
+            <input type="submit" value="Enviar cadastro">
+        </form>
+
+        <p>O cadastro é <strong>obrigatório</strong> para usar qualquer serviço do portal.</p>
+
+        <figure>
+             <img src="fila.png" alt="" loading="lazy">
+            <figcaption>Atendimento presencial em todo o país</figcaption>
+        </figure>
+
+    </article>
+</main>
+
+<footer>
+    <div>&copy; 2025 Portal de Serviços</div>
+</footer>
+
+</body>
+</html>
